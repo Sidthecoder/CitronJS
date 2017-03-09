@@ -18,3 +18,5 @@ if (canvas.getContext) {
  */
 
 //=require Shapes/rectangle.js
+
+//=require Shapes/ellipse.js
