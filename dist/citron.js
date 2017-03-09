@@ -7,9 +7,11 @@
 */
 
 (function(root, factory) {
-  /* ======= Global Moon ======= */
+  /* ======= Global Citron ======= */
   (typeof module === "object" && module.exports) ? module.exports = factory() : root.Citron = factory();
 }(this, function() {
+    //Global Variables
+    
     var err = console.log('There was an error with your code, please open an issue here: https://github.com/CitronJS/CitronJS/issues/new');
     var canvas = document.getElementById('citron');
     
@@ -64,7 +66,26 @@
      * Main Shapes 
      */
     
-    //Rectangle Code will go here
+    //Rectangle code
+    
+    function rect(opts) {
+    	this.opts = opts || {};
+    	this.xparam = opts.xparam;
+    	this.yparam = opts.yparam;
+    	this.wparam = opts.wparam;
+    	this.hparam = opts.hparam;
+    	this.fill = opts.fill;
+    	this.lineW = opts.lineW;
+    	this.strokeStyle = opts.strokeStyle;
+    	
+    	ctx.beginPath();
+    	ctx.rect(this.xparam, this.yparam, this.wparam, this.hparam);
+    	context.fillStyle = this.fill;
+        context.fill();
+        context.lineWidth = this.lineW;
+        context.strokeStyle = this.strokeStyle;
+        context.stroke();
+    }
     
     
     return Citron;
