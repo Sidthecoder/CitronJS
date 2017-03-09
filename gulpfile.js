@@ -32,7 +32,7 @@ gulp.task('minify', ['build'], function() {
     .pipe(header(comment))
     .pipe(size())
     .pipe(size({
-      gzip: false
+      gzip: true
     }))
     .pipe(concat('citron.min.js'))
     .pipe(gulp.dest('./dist/'));
