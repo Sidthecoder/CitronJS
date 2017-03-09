@@ -32,6 +32,8 @@ function line(opts) {
 		else if(!this.strokeStyle) {
 			console.log(err);
 		}
+		
+	this.init();
 }
 
 
