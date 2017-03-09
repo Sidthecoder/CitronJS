@@ -1,0 +1,37 @@
+{
+  "name": "citronjs",
+  "version": "0.0.0",
+  "description": "A Visual JavaScript Library",
+  "main": "dist/citron.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CitronJS/CitronJS.git"
+  },
+  "keywords": [
+    "citronjs",
+    "citron",
+    "Citron",
+    "CitronJS",
+    "CitronJs",
+    "CitronjS",
+    "citronJS"
+  ],
+  "author": "Talon Bragg and Shreyas Lad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CitronJS/CitronJS/issues"
+  },
+  "homepage": "https://github.com/CitronJS/CitronJS#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.8",
+    "gulp-include": "^2.3.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-size": "^2.1.0",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}
