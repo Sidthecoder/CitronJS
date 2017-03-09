@@ -1,2 +1,2 @@
 # CitronJS
-A canvas library built with JS
+**A Visual JavaScript Library**
