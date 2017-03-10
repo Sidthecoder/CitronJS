@@ -1,7 +1,5 @@
 //Global Variables
 
-function Citron() {
-
 var err = console.log('There was an error with your code, please open an issue here: https://github.com/CitronJS/CitronJS/issues/new');
 var canvas = document.getElementById('citron');
 
@@ -23,4 +21,4 @@ if (canvas.getContext) {
 //=require Shapes/rectangle.js
 
 //=require Shapes/ellipse.js
-}
+
