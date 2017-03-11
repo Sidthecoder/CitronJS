@@ -7,6 +7,7 @@ if (canvas.getContext) {
 	var ctx = canvas.getContext('2d');
 }
 
+//=require Components/intro.js
 
 /*
  * Main components 
@@ -21,4 +22,16 @@ if (canvas.getContext) {
 //=require Shapes/rectangle.js
 
 //=require Shapes/ellipse.js
+
+//=require Shapes/pentagon.js
+
+//=require Shapes/octagon.js
+
+//=require Shapes/triangle.js
+
+//=require Shapes/hexagon.js
+
+//=require Shapes/quadrilateral.js
+
+
 

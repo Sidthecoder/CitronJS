@@ -1,5 +1,6 @@
 //Code for Drawing A Line
 
+//Drawing a Line
 window.line = function(opts) {
   this.opts = opts || {};
   this.startx = opts.startx;
@@ -13,7 +14,9 @@ window.line = function(opts) {
   ctx.strokeStyle = this.strokeStyle;
   ctx.moveTo(this.startx, this.starty);
   ctx.lineWidth = this.lineW;
-  ctx.lineTo(endx, endy);
+  ctx.lineTo(this.endx, this.endy);
+  ctx.closePath();
+  ctx.stroke();
 
   //Error handling
   if (!this.opts) {
